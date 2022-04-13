@@ -1,8 +1,5 @@
 # Getting Started with Create React App
 
-Demo: https://6255b599a827590073dbd01e--super-belekoy-54c1af.netlify.app/
--- Using with ContextAPI and made responsive
-
 This project was bootstrapped with[Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
