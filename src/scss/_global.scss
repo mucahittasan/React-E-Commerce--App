@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Buttons
+
+%btn {
+    color: #fff;
+    padding: .5rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    @extend %btn;
+    background-color: $primary-color;
+    transition: 200ms all ease-in-out;
+
+    &:hover {
+        background-color: $dark-color;
+    }
+}
+
+.btn-dark {
+    @extend %btn;
+    background-color: $dark-color;
+    transition: 200ms all ease-in-out;
+
+    &:hover {
+        background-color: $primary-color;
+    }
+}
