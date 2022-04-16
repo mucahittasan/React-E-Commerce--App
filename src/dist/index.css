@@ -33,6 +33,22 @@ a {
   .btn-dark:hover {
     background-color: #E48181; }
 
+.back-icon {
+  font-size: 2rem;
+  margin-left: 3rem;
+  color: #E48181;
+  transition: 200ms all ease-in-out; }
+  .back-icon:hover {
+    color: #5C5C5C; }
+
+.back {
+  position: sticky;
+  top: 9%;
+  background-color: white; }
+  @media (max-width: 680px) {
+    .back {
+      top: 12%; } }
+
 .header {
   display: flex;
   align-items: center;
@@ -208,7 +224,8 @@ a {
         margin-bottom: 1rem; }
     .shop__content .shop-cards .btn {
       margin-top: auto;
-      text-align: center !important; }
+      text-align: center !important;
+      font-size: 1rem; }
 
 .back {
   position: sticky;
@@ -217,13 +234,6 @@ a {
   @media (max-width: 680px) {
     .back {
       top: 12%; } }
-  .back .back-icon {
-    font-size: 2rem;
-    margin-left: 3rem;
-    color: #E48181;
-    transition: 200ms all ease-in-out; }
-    .back .back-icon:hover {
-      color: #5C5C5C; }
 
 .basket-container {
   display: flex;
@@ -314,3 +324,23 @@ a {
   margin: 2rem;
   color: #424242;
   font-weight: bold; }
+
+.card__detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto; }
+  .card__detail img {
+    width: 30%;
+    height: auto; }
+  .card__detail-description {
+    margin-left: 4rem; }
+    .card__detail-description h1 {
+      font-size: 2.8rem; }
+    .card__detail-description p {
+      font-size: 1.2rem;
+      word-spacing: 2px; }
+    .card__detail-description .detail-btn {
+      width: 200px;
+      font-size: 1rem; }

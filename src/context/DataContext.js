@@ -12,6 +12,16 @@ export const DataProvider = ({ children }) => {
     const [categories, setCategories] = useState(allCategories);
     const [basket, setBasket] = useState([]);
 
+    // items
+    const addItem = (data) => {
+        setBasket([...basket, { ...data }]);
+    };
+
+
+    const removeItem = (item) => {
+        setBasket(basket.filter(data => data.id !== item.id));
+    }
+
     const filterItems = (category) => {
         if (category === 'all') {
             setItems(data);
@@ -29,6 +39,9 @@ export const DataProvider = ({ children }) => {
         setItems,
         basket,
         setBasket,
+        addItem,
+        removeItem
+
     }
 
     return (

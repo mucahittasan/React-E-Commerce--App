@@ -47,3 +47,27 @@ a {
         background-color: $primary-color;
     }
 }
+
+ 
+.back-icon {
+    font-size: 2rem;
+    margin-left: 3rem;
+    color: $primary-color;
+    transition: 200ms all ease-in-out;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.back {
+    position: sticky;
+    top: 9%;
+    background-color: white;
+
+    @media (max-width:680px){
+
+        top: 12%;
+
+    }
+}

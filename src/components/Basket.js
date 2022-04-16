@@ -58,12 +58,10 @@ const Basket = () => {
       </header>
 
       <div className="back">
-        <div className="back">
-          <Link to="/">
-            {" "}
-            <BsFillArrowLeftCircleFill className="back-icon" />{" "}
-          </Link>
-        </div>
+        <Link to="/">
+          {" "}
+          <BsFillArrowLeftCircleFill className="back-icon" />{" "}
+        </Link>
       </div>
       {basket.length <= 0 || success ? <Alert /> :
 
@@ -74,7 +72,9 @@ const Basket = () => {
               return (
                 <div key={index} className="basket-card">
                   <div className="basket-image">
-                    <img src={item.image} alt={item.title} />
+                    <Link to={`/item/${item.id}`}>
+                      <img src={item.image} alt={item.title} />
+                    </Link>
                   </div>
                   <div className="basket__description">
                     <div className="basket__description-content">

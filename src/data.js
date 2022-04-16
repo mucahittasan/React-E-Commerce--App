@@ -7,6 +7,7 @@ const products = [
         "title": "Mackbook Pro",
         "price": 14000,
         "category": "technology",
+        "description": "En ince ve en hafif dizüstü bilgisayarımız, Apple M1 çip sayesindetamamen yenilendi. 3,5 kata kadar daha hızlı CPU. 5 kata kadardaha hızlı GPU. Gelişmiş Neural Engine birimimiz sayesinde9 kata kadar daha hızlı yapay öğrenme. MacBook Air’de şimdiyekadar sunulan en uzun pil ömrü. Ve sessiz, fansız tasarım.Bu güç sizinle her yere gitmeye hazır.",
         "count": 1,
     },
     {
@@ -15,6 +16,7 @@ const products = [
         "title": "Huawei Matebook D14",
         "price": 9500,
         "category": "technology",
+        "description": "HUAWEI MateBook D 14 çarpıcı 1920 x 1080 IPS ekran teknolojisiyle donatılmıştır ve 4.8mm'ye kadar inceltilmiş çerçevesi 14 inç FullView ekranı neredeyse sonsuzu gösterir. 178° izleme açısıyla  sinematik bir deneyime dalarken veya sadece e-posta gönderirken berrak ve güzel ekran sayesinde görsel bir şölenin içinde olun.",
         "count": 1,
     },
     {
@@ -23,14 +25,16 @@ const products = [
         "title": "Vestel TV",
         "price": 7200,
         "category": "technology",
+        "description": "Nano teknolojisi sayesinde Saf Renkleri geniş izleme açılarından yüksek tutarlılıkta görüntülemenizi sağlar. Renk tutarlılığı, renk ve aydınlatma açısından ekran tutarlılığını temsil eder. Intertek tarafından onaylanan LG NanoCell TV, CIE DE2000 formülüne göre ±30° görüntüleme açısıyla 18 renk deseninde %100 Renk Tutarlılığı elde eder. ",
         "count": 1,
     },
     {
         "id": 4,
-        "image": require("./images/teknoloji/teknoloji_7.jpg"),
+        "image": require("./images/teknoloji/teknoloji_7.png"),
         "title": "Regal TV",
         "price": 7600,
         "category": "technology",
+        "description": "egal Smart LED TV, sahip olduğu görüntüleme teknolojileriyle içeriklerinizi daha rahat bir şekilde izleyebilmenize yardımcı olur. Üründe yer alan Mega Dinamik Kontrast özelliği, en açık ve en koyu renkleri belirginleştirir. Renkler, bu özellik sayesinde daha canlı bir görünüm kazanır. Böylece siyahları tamamen siyah, beyazları ise kar beyaz görüntüleyebilirsiniz. Ara tonları da iyileştiren Mega Dinamik Kontrast sayesinde ekranınızda daha fazla renk tonu ve daha fazla canlılığa yer verebilirsiniz.",
         "count": 1,
     },
     {
@@ -39,6 +43,7 @@ const products = [
         "title": "Redmi Note 10S",
         "price": 4800,
         "category": "technology",
+        "description": "Redmi Note 10S akıllı telefon gerek fiziksel tasarımı gerekse teknik donanımı ile keyifli ve rahat kullanım vadediyor. Xiaomi kalitesi ile size ulaşan ürün büyük ekran, yüksek çözünürlük, dörtlü arka kamera, güçlü işlemci, yüksek pil gücü, geniş depolama alanı ve bellek, hızlı şarj desteği gibi özellikleri bünyesinde barındırıyor.",
         "count": 1,
     },
     {
@@ -47,6 +52,7 @@ const products = [
         "title": "Huawei Matebook D15",
         "price": 7500,
         "category": "technology",
+        "description": "HUAWEI MateBook D15, hız ve gücün mükemmel kombinasyonunu sunmak için iki sabit sürücü yuvasından beslenir. Katı hal sürücüsünün (SSD)3 hızlı yanıt sürelerini, sabit disk sürücüsünün (HDD) olağanüstü veri belleği ile harmanlar. Bilgisayarınızdaki eğlence ve çalışma aktivitelerinizi kolaylıkla ve akıcı bir şekilde sürdürür.",
         "count": 1,
     },
     {
@@ -55,6 +61,7 @@ const products = [
         "title": " Vestel TV",
         "price": 14000,
         "category": "technology",
+        "description": "Nano teknolojisi sayesinde Saf Renkleri geniş izleme açılarından yüksek tutarlılıkta görüntülemenizi sağlar. Renk tutarlılığı, renk ve aydınlatma açısından ekran tutarlılığını temsil eder. Intertek tarafından onaylanan LG NanoCell TV, CIE DE2000 formülüne göre ±30° görüntüleme açısıyla 18 renk deseninde %100 Renk Tutarlılığı elde eder. ",
         "count": 1,
     },
     {
@@ -63,6 +70,7 @@ const products = [
         "title": "Yesil Mont",
         "price": 450,
         "category": "fashion",
+        "description": "",
         "count": 1,
     },
     {
@@ -71,6 +79,7 @@ const products = [
         "title": "Jack Jones Sweatshirt",
         "price": 160,
         "category": "fashion",
+        "description": "",
         "count": 1,
     },
     {
@@ -79,6 +88,7 @@ const products = [
         "title": "Lacivert T-shirt",
         "price": 75,
         "category": "fashion",
+        "description": "",
         "count": 1,
     },
     {
@@ -87,6 +97,7 @@ const products = [
         "title": "Kislik Mont",
         "price": 550,
         "category": "fashion",
+        "description": "",
         "count": 1,
     },
     {
@@ -95,6 +106,7 @@ const products = [
         "title": "Deri Ceket",
         "price": 680,
         "category": "fashion",
+        "description": "",
         "count": 1,
     },
     {
@@ -103,6 +115,7 @@ const products = [
         "title": "Aqua Saat",
         "price": 110,
         "category": "accessories",
+        "description": "",
         "count": 1,
     },
     {
@@ -111,6 +124,7 @@ const products = [
         "title": "Spectrum Saat",
         "price": 98,
         "category": "accessories",
+        "description": "",
         "count": 1,
     },
     {
@@ -119,6 +133,7 @@ const products = [
         "title": "Jenny Bileklik",
         "price": 30,
         "category": "accessories",
+        "description": "",
         "count": 1,
     },
     {
@@ -127,6 +142,7 @@ const products = [
         "title": "Halka Kupe",
         "price": 25,
         "category": "accessories",
+        "description": "",
         "count": 1,
     },
     {
@@ -135,6 +151,7 @@ const products = [
         "title": "Zincir Kolye",
         "price": 30,
         "category": "accessories",
+        "description": "",
         "count": 1,
     },
     {
@@ -143,6 +160,7 @@ const products = [
         "title": "Jenny Bileklik",
         "price": 45,
         "category": "accessories",
+        "description": "",
         "count": 1,
     }
 ]
