@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import DataContext from "../context/DataContext";
-
+import { Link } from 'react-router-dom';
 
 const ShopItem = ({ item }) => {
   const { setBasket, basket } = useContext(DataContext);
@@ -18,7 +18,9 @@ const ShopItem = ({ item }) => {
   return (
     <div className="shop-card">
       <div className="card-image">
-        <img src={item.image} alt={item.title} />
+        <Link to={`/item/${item.id}`}>
+          <img src={item.image} alt={item.title} />
+        </Link>
       </div>
       <div className="card-name">{item.title}</div>
       <div className="card-price">{item.price}TL</div>

@@ -169,6 +169,7 @@
 
             .shop-card {
                 max-width: 300px;
+                height: 600px;
                 background-color: $light-color;
                 display: flex;
                 flex-direction: column;
@@ -193,7 +194,7 @@
             }
 
             .btn {
-                margin-top: 2rem;
+                margin-top: auto;
                 text-align: center !important;
             }
         }

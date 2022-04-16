@@ -2,10 +2,11 @@
 import { Routes, Route } from 'react-router-dom';
 // Components
 import Home from './components/Home';
-import Basket from './components/Basket'
+import Basket from './components/Basket';
+import ItemDetail from './components/ItemDetail';
 
 
-function App() {
+const App = () => {
 
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/basket' element={<Basket />} />
+        <Route path='/item/:item_id' element={<ItemDetail />} />
       </Routes>
 
     </div>
