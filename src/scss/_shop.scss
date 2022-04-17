@@ -8,15 +8,9 @@
         align-items: center;
         justify-content: center;
         position: sticky;
-        top: 8%;
+        top: 9%;
         width: 100%;
         background-color: white;
-
-        @media (max-width:680px){
-
-           top: 12%;
-
-        }
 
         &.active{
 

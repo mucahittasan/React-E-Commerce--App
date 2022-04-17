@@ -45,9 +45,6 @@ a {
   position: sticky;
   top: 9%;
   background-color: white; }
-  @media (max-width: 680px) {
-    .back {
-      top: 12%; } }
 
 .header {
   display: flex;
@@ -99,12 +96,9 @@ a {
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 8%;
+  top: 9%;
   width: 100%;
   background-color: white; }
-  @media (max-width: 680px) {
-    .shop__header {
-      top: 12%; } }
   .shop__header.active ul {
     display: flex;
     flex-direction: column;
@@ -231,9 +225,6 @@ a {
   position: sticky;
   top: 9%;
   background-color: white; }
-  @media (max-width: 680px) {
-    .back {
-      top: 12%; } }
 
 .basket-container {
   display: flex;
@@ -331,11 +322,25 @@ a {
   justify-content: center;
   max-width: 1300px;
   margin: 0 auto; }
+  @media (max-width: 900px) {
+    .card__detail {
+      flex-direction: column;
+      margin-bottom: 3rem; }
+      .card__detail img {
+        width: 50% !important; }
+      .card__detail-description {
+        margin-left: 0 !important;
+        padding: 2rem; } }
   .card__detail img {
     width: 30%;
     height: auto; }
   .card__detail-description {
     margin-left: 4rem; }
+    @media (max-width: 1100px) {
+      .card__detail-description h1 {
+        font-size: 2.3rem !important; }
+      .card__detail-description p {
+        font-size: 1rem !important; } }
     .card__detail-description h1 {
       font-size: 2.8rem; }
     .card__detail-description p {
