@@ -4,7 +4,7 @@ import React, { useContext, useState } from "react";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 // Components
 import DataContext from "../context/DataContext";
-import Alert from './Alert'
+import Alert from '../components/Alert'
 // Image
 import basketLogo from "../images/basket.png";
 

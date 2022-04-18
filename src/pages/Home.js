@@ -1,7 +1,7 @@
 import React from "react";
 // Components
-import Header from "./Header";
-import Shop from "./Shop";
+import Header from "../components/Header";
+import Shop from "../components/Shop";
 
 const Home = () => {
   return (

@@ -1,10 +1,10 @@
 // Modules
 import { Routes, Route } from 'react-router-dom';
 // Components
-import Home from './components/Home';
-import Basket from './components/Basket';
-import ItemDetail from './components/ItemDetail';
-import Error404 from './components/Error404';
+import Home from './pages/Home';
+import Basket from './pages/Basket';
+import ItemDetail from './pages/ItemDetail';
+import Error404 from './pages/Error404';
 
 
 const App = () => {
