@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 import data from '../data';
 
@@ -8,9 +8,15 @@ const allCategories = ['all', ...new Set(data.map(item => item.category))];
 
 export const DataProvider = ({ children }) => {
 
+    const defaultBasket = JSON.parse(localStorage.getItem('basket')) || [];
+
     const [items, setItems] = useState(data);
     const [categories, setCategories] = useState(allCategories);
-    const [basket, setBasket] = useState([]);
+    const [basket, setBasket] = useState(defaultBasket);
+
+    useEffect(() => {
+        localStorage.setItem('basket', JSON.stringify(basket));
+    }, [basket])
 
     // items
     const addItem = (data) => {
