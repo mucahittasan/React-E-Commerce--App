@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Demo:  https://my-project2-steel.vercel.app/
+Demo: https://my-project2-steel.vercel.app/
 
 This project was bootstrapped with[Create React App](https://github.com/facebook/create-react-app).
 
