@@ -13,10 +13,10 @@ const App = () => {
     <div>
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/basket' element={<Basket />} />
-        <Route path='/item/:item_id' element={<ItemDetail />} />
-        <Route path='*' element={<Error404 />} />
+        <Route path='/' element={ <Home /> } />
+        <Route path='/basket' element={ <Basket /> } />
+        <Route path='/item/:item_id' element={ <ItemDetail /> } />
+        <Route path='*' element={ <Error404 /> } />
       </Routes>
 
     </div>
