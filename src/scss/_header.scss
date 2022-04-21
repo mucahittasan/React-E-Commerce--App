@@ -6,12 +6,14 @@
     position: sticky;
     top: 0;
     background-color: white;
-
+    height: 100px;
     .logo {
         color: $primary-color;
-        font-size: 2.2rem;
+        font-size: 3rem;
+        font-family: $font-secondary;
         span {
             color: $dark-color;
+            font-size: 2.2rem;
         }
     }
 
