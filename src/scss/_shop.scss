@@ -9,33 +9,31 @@
         justify-content: center;
         position: sticky;
         top: 9%;
-        width: 100%;
         background-color: white;
 
         &.active{
-
+            
             ul {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-evenly;
                 position: absolute;
-                top: 35px;
-                background: linear-gradient(to left, #b46868, $primary-color);
-                height: 60vh;
-                width: 200px;
-                border-top-left-radius: 10px;
-                border-bottom-left-radius: 10px;
-
+                top: 30px;
+                background: $light-color;
+                height: 300px;
+                width: 100%;
+                padding: 0 !important;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
                 li{
                     margin-left: 0 !important;
 
                     button{
                         font-size: 18px;
-                        color: $light-color;
+                        color: $dark-color;
                        
                         &:hover {
-                            color: $dark-color;
+                            color: $primary-color;
 
                             &::after{
                                 opacity: 0;

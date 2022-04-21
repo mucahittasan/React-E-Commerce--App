@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import Header from "../components/Header";
 import { useContext } from "react";
-import DataContext from "../context/DataContext";
 import { Link } from "react-router-dom";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import Header from "../components/Header";
+import DataContext from "../context/DataContext";
 
 const ItemDetail = () => {
   const { item_id } = useParams();
