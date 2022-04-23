@@ -23,8 +23,8 @@
     ``` npm
     npm i
     ```
-   - install with yarn:
-    ``` npm
+  - install with yarn:
+    ``` yarn
     yarn add
     ```
  - after downloading the requirements, you can run:
