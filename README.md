@@ -30,7 +30,7 @@
  - after downloading the requirements, you can run:
      - Run with npm:
     ``` npm
-    npm i
+    npm start
     ```
    - Run with yarn:
     ``` yarn
