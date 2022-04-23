@@ -1,4 +1,4 @@
-<h3 align="center">React E-Commerce App</h3>
+<h1 align="center">React E-Commerce App</h1>
 
 <img width="900" src = 'https://user-images.githubusercontent.com/88967412/164946891-be8a1a7c-ff5a-44fc-89a0-798dd0b883de.gif' />
 
@@ -17,4 +17,10 @@
   <h3> 🔍 Setup</h3>
  
   - Clone the project with **"git clone"**
+  
+  - After cloning the project, by following these steps, you will fulfill the project requirements.
+  
+  ``` npm
+  npm i
+  ```
     
