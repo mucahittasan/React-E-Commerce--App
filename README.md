@@ -16,5 +16,5 @@
   
   <h3> 🔍 Setup</h3>
  
-  - Clone the project with **git clone**
+  - Clone the project with **"git clone"**
     
