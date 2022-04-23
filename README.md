@@ -9,7 +9,7 @@
   <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
   
   <h3>Build With</h3>
-  <a href="https://tr.reactjs.org/">ReactJs/a>
-  <a href="https://github.com/axios/axios">Axios</a>
-  <a href="https://reactrouter.com/docs/en/v6">React Router</a>
+  -- <a href="https://tr.reactjs.org/">ReactJs/a>
+  -- <a href="https://github.com/axios/axios">Axios</a>
+  -- <a href="https://reactrouter.com/docs/en/v6">React Router</a>
     
