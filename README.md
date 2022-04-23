@@ -24,7 +24,7 @@
     npm i
     ```
    - install with yarn:
-    ``` yarn
+    ``` npm
     yarn add
     ```
  - after downloading the requirements, you can run:
