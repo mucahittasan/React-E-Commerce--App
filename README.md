@@ -10,6 +10,8 @@
   
   <h3>Build With</h3>
   
- -- [ReactJs](https://tr.reactjs.org/)
+ - [ReactJs](https://tr.reactjs.org/)
+ - [Axios](https://github.com/axios/axios)
+ - [React Router](https://reactrouter.com/)
  
     
