@@ -16,7 +16,7 @@
 </p>
   
  - <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
- - <p>Made responsively using media queries</p>
+ - <p>Made responsive using media queries</p>
   
   <h2> 📌 Build With</h2>
   
