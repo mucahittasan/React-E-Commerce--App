@@ -11,9 +11,9 @@
 </div>
 
 <div align="center">
-  <img width="300" src ='https://user-images.githubusercontent.com/88967412/164948115-5de3506c-45ce-4e62-9f44-2269c65bd8c1.jpg' />
-  <img width="300" src ='https://user-images.githubusercontent.com/88967412/164948131-23328f94-84e9-47dd-bc4f-207259c0784f.jpg' />
-  <img width="300" src ='https://user-images.githubusercontent.com/88967412/164948135-7d41c7ec-1593-4e8b-a158-e628869fbabf.jpg' />
+  <img width="250" src ='https://user-images.githubusercontent.com/88967412/164948115-5de3506c-45ce-4e62-9f44-2269c65bd8c1.jpg' />
+  <img width="250" src ='https://user-images.githubusercontent.com/88967412/164948131-23328f94-84e9-47dd-bc4f-207259c0784f.jpg' />
+  <img width="250" src ='https://user-images.githubusercontent.com/88967412/164948135-7d41c7ec-1593-4e8b-a158-e628869fbabf.jpg' />
 </div>
 
 <h2> ✨ About The Project</h2>
