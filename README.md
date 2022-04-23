@@ -19,8 +19,23 @@
   - Clone the project with **"git clone"**
   
   - After cloning the project, by following these steps, you will fulfill the project requirements.
+    - install with npm:
+    ``` npm
+    npm i
+    ```
+   - install with yarn:
+    ``` yarn
+    yarn add
+    ```
+ - after downloading the requirements, you can run:
+     - Run with npm:
+    ``` npm
+    npm i
+    ```
+   - Run with yarn:
+    ``` yarn
+    yarn add
+    ```
   
-  ``` npm
-  npm i
-  ```
+ 
     
