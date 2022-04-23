@@ -8,13 +8,14 @@
   
   <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
   
-  <h3> 📌 Build With</h3>
+  <h2> 📌 Build With</h2>
   
  - [ReactJs](https://tr.reactjs.org/)
  - [Axios](https://github.com/axios/axios)
  - [React Router](https://reactrouter.com/)
+ - [ContextAPI](https://tr.reactjs.org/docs/context.html)
   
-  <h3> 🔍 Setup</h3>
+  <h2> 🔍 Setup</h2>
  
   - Clone the project with **"git clone"**
   
@@ -36,6 +37,11 @@
     ``` yarn
     yarn add
     ```
+  <h2> 📧 Contact </h2>
+  
+  Mucahit Tasan - [Linkedin](https://www.linkedin.com/in/mucahittasan) - [Instagram](https://www.instagram.com/tasanmucahit) - [E-mail](mailto:mucahittasan0@gmail.com)
+  
+ 
   
  
     
