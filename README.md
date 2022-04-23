@@ -1,1 +1,2 @@
-### <h3 align="center" id="heading">React Weather App</h3>
+### <h2 align="center">React Weather App</h3>
+
