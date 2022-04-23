@@ -99,6 +99,11 @@ a {
       justify-content: center;
       color: #F5F5F5; }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
 .shop__header {
   width: 100%;
   border-bottom: 2px solid #C5C5C5;
@@ -359,3 +364,37 @@ a {
     .card__detail-description .detail-btn {
       width: 200px;
       font-size: 1rem; }
+
+.footer {
+  height: 80px;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: auto; }
+  .footer .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: #747373;
+    font-style: italic; }
+    .footer .copy a {
+      margin-top: 10px;
+      color: #333;
+      font-weight: bold;
+      font-size: 1.2em;
+      font-style: normal;
+      transition: 200ms all ease-in-out; }
+      .footer .copy a:hover {
+        color: #E48181; }
+  .footer .social {
+    display: flex; }
+    .footer .social a {
+      padding: 10px;
+      font-size: 1.6rem;
+      margin-left: 1rem;
+      color: #333;
+      transition: 200ms all ease-in-out; }
+      .footer .social a:hover {
+        color: #E48181; }
