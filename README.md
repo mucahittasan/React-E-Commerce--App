@@ -51,7 +51,16 @@
     ```
    - Run with yarn:
     ``` yarn
-    yarn add
+    yarn start
+    ```
+ - After than, you have to run node sass.
+    - Run with npm:
+    ``` npm
+    npm run scss
+    ```
+   - Run with yarn:
+    ``` yarn
+    yarn run scss
     ```
   <h2> 📧 Contact </h2>
   
