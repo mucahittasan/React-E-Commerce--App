@@ -2,7 +2,7 @@
 const products = [
 
     {
-        "id": 1,
+        "id": 1, 
         "image": require("./images/teknoloji/teknoloji_1.jpg"),
         "title": "Mackbook Pro",
         "price": 14000,
