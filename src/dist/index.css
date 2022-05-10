@@ -17,7 +17,7 @@ a {
 
 .btn-primary, .btn-dark {
   color: #fff;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 4px;
   cursor: pointer; }
 
@@ -54,38 +54,42 @@ a {
   font-size: 40px;
   font-weight: bold; }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
 .header {
   position: sticky;
   top: 0;
   background-color: white;
   height: 100px;
-  z-index: 999; }
-  .header .header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2.25rem; }
-    .header .header-content .logo {
-      color: #E48181;
-      font-size: 3rem;
-      font-family: "Lobster", cursive; }
-      .header .header-content .logo span {
-        color: #333;
-        font-size: 2.2rem; }
-    .header .header-content .basket {
-      position: relative; }
-      .header .header-content .basket span {
-        position: absolute;
-        top: 0;
-        right: -5px;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background-color: #E48181;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #F5F5F5; }
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.25rem; }
+  .header .logo {
+    color: #E48181;
+    font-size: 3rem;
+    font-family: "Lobster", cursive; }
+    .header .logo span {
+      color: #333;
+      font-size: 2.2rem; }
+  .header .basket {
+    position: relative; }
+    .header .basket span {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: #E48181;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #F5F5F5; }
 
 .shop__header {
   width: 100%;

@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,19 +20,17 @@ a {
 }
 
 // Buttons
-
 %btn {
     color: #fff;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.btn-primary{
+.btn-primary {
     @extend %btn;
     background-color: $primary-color;
     transition: 200ms all ease-in-out;
-
     &:hover {
         background-color: $dark-color;
     }
@@ -42,19 +40,16 @@ a {
     @extend %btn;
     background-color: $dark-color;
     transition: 200ms all ease-in-out;
-
     &:hover {
         background-color: $primary-color;
     }
 }
 
- 
 .back-icon {
     font-size: 2rem;
     margin-left: 3rem;
     color: $primary-color;
     transition: 200ms all ease-in-out;
-
     &:hover {
         color: $secondary-color;
     }
@@ -66,11 +61,17 @@ a {
     background-color: white;
 }
 
-.error{
+.error {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
     font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
