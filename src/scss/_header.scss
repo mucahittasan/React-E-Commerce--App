@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 2.25rem ;
+    padding: 0 2.25rem;
     position: sticky;
     top: 0;
     background-color: white;
@@ -16,32 +16,64 @@
             font-size: 2.2rem;
         }
     }
-
-    form {
-        input{
-            width: 30rem;
+    &-search {
+        width: 40%;
+        position: relative;
+        input {
+            width: 100%;
+            height: 30px;
             border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: $light-color;
+            padding: 0 .8rem;
+            color: $dark-color;
             outline: none;
-            border: none;
-            background-color: #EBEAEA;
-            padding: .5rem;
-            margin-right: 2rem;
-            font-size: 1rem;
-
-            &::placeholder {
-                opacity: 1;
-                transition: 200ms all ease-in-out;
-            }
-
-            &:focus::placeholder {
-                opacity: 0;
+        }
+        &__boxes {
+            position: absolute;
+            top: 120px;
+            width: 100%;
+            max-height: 300px;
+            overflow: auto;
+            background-color: $light-color;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+            padding: 1rem;
+            .box {
+                display: flex;
+                align-items: center;
+                padding: 1rem 0;
+                &:not(:last-child) {
+                    border-bottom: 1px solid $dark-color;
+                }
+                .item-image {
+                    img {
+                        width: 50px;
+                        margin-right: .8rem;
+                    }
+                }
+                .item-info {
+                    .title {
+                        font-size: 1.1rem;
+                        margin-bottom: .3rem;
+                    }
+                    .price {
+                        font-weight: 500;
+                    }
+                }
+                .item-buttons {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: auto;
+                    >button {
+                        margin-bottom: 10px;
+                    }
+                }
             }
         }
     }
-
     .basket {
         position: relative;
-
         span {
             position: absolute;
             top: 0;
