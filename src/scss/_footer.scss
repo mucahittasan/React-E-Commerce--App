@@ -5,7 +5,12 @@
     justify-content: space-evenly;
     margin-top: auto;
     padding: 20px;
-
+    @media (max-width: 540px) {
+        flex-direction: column;
+        .copy {
+            margin-bottom: 1rem;
+        }
+    }
     .copy {
         display: flex;
         flex-direction: column;
@@ -13,7 +18,6 @@
         font-size: 1rem;
         color: rgb(116, 115, 115);
         font-style: italic;
-
         a {
             margin-top: 10px;
             color: $dark-color;
@@ -21,23 +25,19 @@
             font-size: 1.2em;
             font-style: normal;
             transition: 200ms all ease-in-out;
-
             &:hover {
                 color: $primary-color;
             }
         }
     }
-
     .social {
         display: flex;
-
         a {
             padding: 12px;
             font-size: 1.8rem;
             margin-left: 1rem;
             color: $dark-color;
             transition: 200ms all ease-in-out;
-
             &:hover {
                 color: $primary-color;
             }

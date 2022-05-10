@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
 import DataContext from "../context/DataContext";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const ShopItem = ({ item }) => {
   const { addItem, removeItem, basket } = useContext(DataContext);
 
-  const filterButton = basket.find(data => data.id === item.id);
-
+  const filterButton = basket.find((data) => data.id === item.id);
 
   return (
     <div className="shop-card">
@@ -18,11 +17,15 @@ const ShopItem = ({ item }) => {
       <div className="card-name">{item.title}</div>
       <div className="card-price">{item.price}TL</div>
 
-      {filterButton ? <button onClick={() => removeItem(item)} className="btn btn-dark">
-        Sepeten Cikar
-      </button> : <button onClick={() => addItem(item)} className="btn btn-primary">
-        Sepete Ekle
-      </button>}
+      {filterButton ? (
+        <button onClick={() => removeItem(item)} className="btn btn-dark">
+          Sepeten Cikar
+        </button>
+      ) : (
+        <button onClick={() => addItem(item)} className="btn btn-primary">
+          Sepete Ekle
+        </button>
+      )}
     </div>
   );
 };
